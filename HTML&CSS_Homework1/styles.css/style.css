@@ -1,0 +1,96 @@
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:rgb(25, 25, 95);
+}
+
+h1, h3{
+    background-color: rgb(114, 114, 206);
+    text-align: center;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    background-color: rgb(114, 114, 206);
+    font-style:italic;
+    text-decoration: none;     
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:blue;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+
+a:hover {
+    color: hotpink;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(99, 113, 189);
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  input[type=text], input[type=password], input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(3, 10, 110);
+    border-radius: 4px;
+  }
+
+  .dropdown {
+    background-color: #080e61;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+  }
+
+  .form
+  {
+      display: block;
+      text-align: center;
+  }
+  form
+  {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      width: 40%; 
+  }

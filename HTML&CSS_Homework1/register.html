@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="author" content="Jovana Miskimovska">
+    <meta name="keywords" content="book, literature, reading">
+    <meta name="description"
+        content="A website where you can buy books, find the newest ones, rate the books, leave comments and donate a book">
+    <title>Best Books</title>
+    <link href="./styles.css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+        <nav>
+            <ul id="top">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./categories.html">Categories</a></li>
+                <li><a href="./instructions.html">Instructions</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="form">
+                <form>
+                    <h3>Register to Bestbook</h3>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" required
+                        placeholder="Please enter your username" />
+                    <br><br>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required
+                        placeholder="Please enter your password" />
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Please enter your email" />
+                    <br><br>
+
+                    <label for="country">Country</label>
+                    <div class="dropdown">
+                        <select name="country" id="country">
+                            <option disabled selected>Please Select...</option>
+                            <option value="c1">Russia</option>
+                            <option value="c2">Germany</option>
+                            <option value="c3">UK</option>
+                            <option value="c4">France</option>
+                            <option value="c5">Italy</option>
+                            <option value="c6">Spain</option>
+                            <option value="c7">Ukraine</option>
+                            <option value="c8">Poland</option>
+                            <option value="c9">Holland</option>
+                            <option value="c10">Macedonia</option>
+                            <option value="c11">Serbia</option>
+                            <option value="c12">Belgium</option>
+                            <option value="c13">Portugal</option>
+                        </select>
+                    </div>
+                    <br>
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" required placeholder="Please enter your current city" />
+                    <br><br>
+                    <label for="address">Home Address</label>
+                    <input type="text" name="address" id="address" required
+                        placeholder="Please enter your home address" />
+                    <br><br>
+                    <button type="button">
+                        <h4>Register</h4>
+                    </button>
+            </div>
+            <p>Already a member?<a href="./login.html">Sign in</a></p>
+            <p>By clicking “Sign up” I agree to the Bestbook Terms of Service and confirm that I am at least 13
+                years of age.</p>
+            </form>
+        </main>
+        <footer>
+            <p>Copyright Bestbook 2020</p>
+        </footer>
