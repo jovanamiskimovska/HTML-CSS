@@ -1,0 +1,68 @@
+.parent{
+    background-color: black;
+    border:3px solid black;
+    position:relative;
+    height:300px;
+    width: 300px;
+}
+
+#white-square-left{
+height:90px;
+width:80px;
+background-color:white;
+position:relative;
+left:0px;
+}
+
+#red-square{
+    background-color: rgb(201, 27, 27);
+    height:210px;
+    width:210px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+   #white-rectangle-left{
+    height:110px;
+    width:80px;
+    background-color:white;
+    position:absolute;
+    left:0px;
+    bottom:90px;
+   }
+
+   #blue-square{
+    height:84px;
+    width:80px;
+    background-color:rgb(42, 79, 201);
+    position:absolute;
+    bottom:0px;
+    left:0px;
+   }
+
+   #white-rectangle-bottom{
+    background-color:white;
+    height: 84px;
+    width:195px;
+    position:absolute;
+    bottom:0px;
+    left:90px;
+   }
+
+   #white-rectangle-right{
+    background-color:white;
+    height: 31px;
+    width:7px;
+    position:absolute;
+    right:0px;
+    bottom:53px;
+   }
+
+   #yellow-rectangle-right{
+    height: 31px;
+    width:7px;
+    background-color:yellow;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+   }
