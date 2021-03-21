@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: rgba(248, 248, 255, 0.87);
+}
+
+.nav{
+    background-color: wheat;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#logo, h1,h4{
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+}
+
+#logo{
+    margin-left:120px;
+}
+
+#logo a{
+    color:black;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-around;  
+    flex-direction: row;
+    list-style: none;
+    margin-right: 120px;
+}
+
+.navBar ul li{
+  padding: 5px;
+  margin: 7px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid black; 
+    border-radius: 4px;
+    height: 30px;
+    width: 110px;
+} 
+
+.middleSection{
+    width: 100%;
+    height: 500px;
+    background: url("../images/kari-shea-1SAnrIxw5OY-unsplash.jpg");
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.items{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+
+.items h1, button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottomSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.threeCards{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    align-items: center;
+} 
+
+.btn-group {
+display: flex;
+flex-direction: row;
+}
+
+.btn-group button{
+    height: 25px;
+    width: 95px;
+    font-size: x-small;
+}
+
+#link{
+    color: rgba(170, 128, 21, 0.973);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer{
+    background-color: wheat;
+    text-align: center;
+}
+
+
+button, footer {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+@media all and (max-width:768px) {
+
+    .navBar ul {
+        display:flex;
+        flex-wrap:wrap;
+        margin: 5px;
+    }
+
+    #logo a{
+        font-size: x-large;
+    }
+
+    button{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .middleSection{
+        width:100%;
+        margin-right: 0;
+    }
+
+    .bottomSection{
+        display:flex;
+        justify-content: center;     
+    }
+    
+    .btn-group{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:480px) {
+    
+    .nav{
+        height: 100px;
+    }
+
+    #logo{
+        margin-left:0;
+    }
+
+    .navBar ul {
+        display:flex;
+        justify-content: space-evenly;
+        margin-right: 0;
+    }
+
+    button{
+        font-size: x-small;
+    }
+
+    .btn-group button{
+        height: 15px;
+        width: 80px;
+    }
+
+    #logo, h1,h4{
+        font-size: medium;
+    }
+
+    .items{
+        margin-right: 5px;
+    }
+
+    .threeCards{
+        font-size: small;
+    }
+
+
+}
